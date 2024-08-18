@@ -1,0 +1,206 @@
+.hidden {
+    display: none;
+}
+
+body{
+    background-image: url(fon1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#settingsContainer {
+    position: absolute;
+    border: 0px;
+    padding: 40px;
+    background-color: #303030;
+    border-radius: 40px;
+    margin-top: -93.5%;
+    margin-left: 0px;
+}
+#work{
+    background-color: #ffffff;
+    color:rgb(162, 35, 103);
+}
+.button1{
+    background-color: rgba(250, 235, 215, 0);
+    border-radius: 25px;
+    border: 1.5px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight:bolder;
+    height: 45px;
+    width: 145px;
+    font-family:candara;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+h1{
+    
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 160px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Вертикальное выравнивание */
+    align-items: center; 
+  
+}
+#start{
+    
+        background-color: rgb(255, 255, 255);
+        border-radius: 45px;
+        border: 1.5px solid rgb(255, 255, 255);
+        color:	rgb(162, 35, 103);
+        font-size: 33px;
+        font-weight: bolder;
+        height: 60px;
+        width: 145px;
+        font-family: candara;
+        margin-right: 0px;
+        margin-left: 140px;
+        position: relative; /* Добавлено позиционирование */
+        top: -80px; /* Поднятие кнопки вверх на 50px */
+    
+    
+
+}
+#again{
+    background-color: rgba(250, 235, 215, 0);
+    border: 0;
+    width: 56px;
+    margin-right: -0px;
+    margin-left: 10px;
+    top:-60px;
+    position: relative;
+   
+}
+#settingsButton{
+    background-color: rgba(250, 235, 215, 0);
+    border: 0;
+    width: 54px; 
+    margin-left: 10px;
+    top:-62px;
+    margin-right: 0px; 
+    position: relative;
+}
+#imgSettingsButton{
+    width: 52px;
+}
+#imgAgain{
+    width: 56px;
+}
+main {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); }
+
+.button1:hover{
+ background-color: #ffffff;
+ color:rgb(162, 35, 103);
+    }
+
+#work:hover{
+    background-color: #63454500;
+    color: #ffffff;
+}
+
+#start:hover{
+    background-color: #63454500;
+    color: #ffffff;
+}
+
+h2{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 200%;
+    font-family: candara;
+    color: #ffffff;
+}
+.wrapper h3{
+    
+    font-size: 130%;
+    font-family: candara;
+    text-align: center;
+    color: #ffffff;
+}
+
+#h3sound{
+    margin-left: 51px;
+}
+#h3background{
+    margin-left: 51px;
+}
+h3{
+    color: #ffffff;
+    font-size: 130%;
+    font-family: candara;
+}
+
+p{
+    font-family: candara;
+    text-align: center;
+    margin-top: 5px;
+    color: #989898;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Выравнивание элементов по горизонтали с равными промежутками */
+    align-items: center; /* Вертикальное выравнивание элементов внутри строки */
+    gap: 20px; /* Расстояние между элементами */
+}
+.wrapper > div {
+    flex-grow: 1;
+}
+
+input{
+    width: 90px;
+    height: 35px;
+    margin-left: 32px;
+    font-size: 20px;
+    background-color: #303030;
+    border: 0.001px solid #ffffff;
+    color: #ffffff;
+}
+
+select{
+    margin-left: 32px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #303030;
+    border: 0.001px solid #ffffff;
+    color: #ffffff;
+}
+
+
+.wrapperForButton{
+    background-color: rgba(250, 235, 215, 0);
+    border-radius: 25px;
+    border: 1.5px solid rgb(207, 46, 46);
+    color:rgb(207, 46, 46);;
+    font-size: 20px;
+    font-weight:bolder;
+    height: 45px;
+    width: 145px;
+    font-family:candara;
+    margin-top: 35px;
+    margin-left: 175px;
+    
+
+    
+}
+#exit{
+    margin-top: 30px;
+}
+.wrapperForButton:hover{
+    background-color: rgb(207, 46, 46);
+    color: #ffffff;
+}

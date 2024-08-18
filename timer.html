@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="timer.css">
+    <link rel="icon" type="image / jpg" href ="iconBooks.png"/>
+
+</head>
+<body>
+    <main>
+    <button type="button" id="work" class="button1">working </button>
+    <button type="button" id="shortBreak" class="button1">short break</button>
+    <button type="button" id="longBreak" class="button1">long break</button>
+    <h1 id="h1">25.00</h1>
+    <button type="button" id="start">start</button>
+    <button type="button" id="again">
+        <img src="icons8-перезагрузка-64.png" alt="again" id="imgAgain">
+    </button>
+    
+    <button id="settingsButton">
+        <img src="icons8-настройки-50.png" alt="sitting" id="imgSettingsButton">
+    </button>
+
+    <div id="settingsContainer" class="hidden">
+        <article> 
+          
+            <h2>Sittings</h2>
+            <div class="wrapper">
+              <div id=" elem1">
+            <h3>Time</h3>
+            <input type="number" value="25" id="minutesChange">
+            <p>minutes</p></div>
+            <div id = "elem2">
+            <h3>Short Break</h3>
+            <input type="number" value="5" id="minutesChangeShort">
+            <p>minutes</p></div>
+            <div id=" elem3">
+            <h3>Long Break</h3>
+            <input type="number" value="10" id="minutesChangeLong">
+            <p>minutes</p></div>
+          </div>
+            <h3 id="h3sound">The ending sound</h3>
+            <form>
+                <select name="sounds" id="sounds-select">
+                  <option value="sound1.mp3">Bells</option>
+                  <option value="sound2.mp3">Funny sound</option>
+                </select>
+              </form>
+              <h3 id="h3background">Background</h3>
+              <form>
+                <select name="fon" id="fon-select">
+                  <option value="fon1.jpg">Aura</option>
+                  <option value="fon2.jpg">Hogwarts</option>
+                  <option value="fon3.png">The dreamers</option>
+                </select>
+              </form>
+        </article>
+        <button type="button" id="save" class="wrapperForButton">Save</button>
+        <button type="button" id ="exit" class="wrapperForButton">Exit</button>
+    </div>
+  
+  </main>
+<script src="timer.js"></script>
+</body>
+</html>
